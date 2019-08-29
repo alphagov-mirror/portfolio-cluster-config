@@ -2,7 +2,7 @@
 namespaces:
 - name: portfolio-main
 
-- name: pay
+- name: portfolio-pay
   owner: alphagov
   repository: pay-gsp-pipelines
   branch: master
