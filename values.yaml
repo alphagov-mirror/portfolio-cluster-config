@@ -1,3 +1,10 @@
 ---
 namespaces:
 - name: portfolio-main
+
+- name: pay
+  owner: alphagov
+  repository: pay-gsp-pipelines
+  branch: master
+  requiredApprovalCount: 0
+  path: .
