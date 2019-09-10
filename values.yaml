@@ -5,7 +5,7 @@ namespaces:
   repository: portfolio-cluster-config
   branch: master
   path: config/portfolio-main
-  requiredApprovalCount: 2
+  requiredApprovalCount: 0
   ingress:
     enabled: true
 
