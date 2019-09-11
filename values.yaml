@@ -1,11 +1,6 @@
 ---
 namespaces:
 - name: portfolio-main
-  owner: alphagov
-  repository: portfolio-cluster-config
-  branch: master
-  path: config/portfolio-main
-  requiredApprovalCount: 0
   ingress:
     enabled: true
 
@@ -18,4 +13,3 @@ namespaces:
 
 - name: portfolio-pay-staging
 - name: portfolio-pay-production
-
