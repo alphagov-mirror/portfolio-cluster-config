@@ -4,12 +4,23 @@ namespaces:
   ingress:
     enabled: true
 
-- name: portfolio-pay
+- name: portfolio-pay-stubs
   owner: alphagov
   repository: pay-gsp-pipelines
-  branch: master
+  branch: develop
   requiredApprovalCount: 0
-  path: pipelines
+  path: ci/stubs
 
-- name: portfolio-pay-staging
-- name: portfolio-pay-production
+- name: portfolio-pay-test
+  owner: alphagov
+  repository: pay-gsp-pipelines
+  branch: develop
+  requiredApprovalCount: 0
+  path: ci/test
+
+- name: portfolio-pay-prod
+  owner: alphagov
+  repository: pay-gsp-pipelines
+  branch: develop
+  requiredApprovalCount: 0
+  path: ci/prod
