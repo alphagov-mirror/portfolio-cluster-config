@@ -25,6 +25,8 @@ users-path: "users"
 disable-destroy: true
 worker-instance-type: m5d.large
 worker-count: 6
+minimum-workers-per-az-count: 2
+maximum-workers-per-az-count: 4
 ci-worker-instance-type: m5d.large
 ci-worker-count: 3
 github-approval-count: 1
