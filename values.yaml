@@ -5,6 +5,8 @@ namespaces:
     enabled: true
 
 - name: portfolio-pay-test
+  ingress:
+    enabled: true
   owner: alphagov
   repository: pay-gsp-pipelines
   branch: develop
@@ -12,6 +14,8 @@ namespaces:
   path: ci/test
 
 - name: portfolio-pay-prod
+  ingress:
+    enabled: true
   owner: alphagov
   repository: pay-gsp-pipelines
   branch: develop
